@@ -9,7 +9,6 @@ body {
 }
 
 div {
-  width: 375px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -62,6 +61,6 @@ h4 {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     html {
-      font-size: 32px;
+      font-size: 48px;
     }
 }
