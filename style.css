@@ -1,12 +1,15 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: rgb(18, 22, 28);
   color: rgb(230, 232, 234);
   font-family: Helvetica;
-  font-size: 16;
 }
 
 div {
-  width: 200px;
+  width: 375px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -15,6 +18,14 @@ div {
 
 label {
   margin-left: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 .title {
@@ -31,11 +42,11 @@ label {
 }
 
 #input-lev {
-  width: 30px;
+  width: 2rem;
 }
 
 #input-entry {
-  width: 50px;
+  width: 3.125rem;
 }
 
 #stop-profit {
@@ -44,4 +55,13 @@ label {
 
 #stop-loss {
   color: red;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    html {
+      font-size: 32px;
+    }
 }
