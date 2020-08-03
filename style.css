@@ -31,7 +31,7 @@ input {
 }
 
 input[type="radio"] {
-  -webkit-appearance: radio;
+  appearance: radio;
 }
 
 h2 {
