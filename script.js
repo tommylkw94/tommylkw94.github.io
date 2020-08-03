@@ -8,5 +8,4 @@ function calculate() {
 
     document.getElementById("stop-profit").innerHTML = profit;
     document.getElementById("stop-loss").innerHTML = loss;
-
 }

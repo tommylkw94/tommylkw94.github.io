@@ -29,6 +29,10 @@ input {
   font-size: 0.8rem;
 }
 
+input[type="radio"] {
+  -webkit-appearance: checkbox;
+}
+
 h2 {
   font-size: 1.5rem;
 }
