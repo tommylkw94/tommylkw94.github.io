@@ -30,7 +30,7 @@ input {
 }
 
 input[type="radio"] {
-  -webkit-appearance: checkbox;
+  -webkit-appearance: radio;
 }
 
 h2 {
