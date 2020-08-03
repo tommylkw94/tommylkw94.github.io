@@ -61,6 +61,6 @@ h4 {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     html {
-      font-size: 48px;
+      font-size: 80px;
     }
 }
