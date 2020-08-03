@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(18, 22, 28);
+  color: rgb(230, 232, 234);
+  font-family: Helvetica;
+  font-size: 16;
+}
+
+div {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-left: 1.5rem;
+}
+
+.title {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.side {
+  margin: 1.5rem auto;
+}
+
+.parameter {
+  padding: 0 1rem;
+}
+
+#input-lev {
+  width: 30px;
+}
+
+#input-entry {
+  width: 50px;
+}
+
+#stop-profit {
+  color: green;
+}
+
+#stop-loss {
+  color: red;
+}
