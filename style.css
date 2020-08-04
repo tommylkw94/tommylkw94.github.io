@@ -13,11 +13,11 @@ body {
 }
 
 main {
-  width: 350px;
-  padding: 20px 0;
+  width: 22rem;
+  padding: 1.25rem 0;
   border-style: solid;
   border-color: rgb(230, 232, 234);
-  border-width: 3px;
+  border-width: 0.2rem;
   margin: 0 auto;
 }
 
