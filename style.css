@@ -58,7 +58,7 @@ a {
 }
 
 .title {
-  margin: 3rem auto;
+  margin: 3rem auto 1.5rem;
   text-align: center;
 }
 
@@ -101,6 +101,6 @@ a {
       font-size: 48px;
     }
     main {
-      width: 700px;
+      width: 750px;
     }
 }
