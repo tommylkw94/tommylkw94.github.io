@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  width: 22rem;
+  width: 350px;
   padding: 1.25rem 0;
   border-style: solid;
   border-color: rgb(230, 232, 234);
@@ -99,5 +99,8 @@ a {
   and (-webkit-min-device-pixel-ratio: 3) { 
     html {
       font-size: 48px;
+    }
+    main {
+      width: 700px;
     }
 }
