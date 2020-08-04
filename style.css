@@ -42,6 +42,12 @@ h4 {
   font-size: 1rem;
 }
 
+a {
+  color: rgb(230, 232, 234);
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .title {
   margin: 3rem auto;
   text-align: center;
@@ -53,6 +59,12 @@ h4 {
 
 .parameter {
   padding: 0 1rem;
+}
+
+.attribute {
+  margin: 2rem 0 auto;
+  display: block;
+  text-align: center;
 }
 
 #input-lev {
