@@ -1,11 +1,13 @@
 function calculate() {
     let lev = parseInt(document.getElementById("input-lev").value);
+    let loss = parseInt(document.getElementById("input-loss").value);
+    let ratio = parseInt(document.getElementById("input-ratio").value);
     let entry = parseInt(document.getElementById("input-entry").value);
     let side = document.getElementById("long").checked ? 1 : -1;
 
-    let profit = entry + 0.1 * side * entry / lev;
-    let loss = entry - 0.05 * side * entry / lev;
+    let stopProfit = entry + (loss/100) * ratio * side * entry / lev;
+    let stopLoss = entry - (loss/100) * side * entry / lev;
 
-    document.getElementById("stop-profit").innerHTML = profit;
-    document.getElementById("stop-loss").innerHTML = loss;
+    document.getElementById("stop-profit").innerHTML = stopProfit;
+    document.getElementById("stop-loss").innerHTML = stopLoss;
 }

@@ -81,6 +81,14 @@ a {
   width: 2rem;
 }
 
+#input-loss {
+  width: 1.5rem;
+}
+
+#input-ratio {
+  width: 2rem;
+}
+
 #input-entry {
   width: 3.125rem;
 }
