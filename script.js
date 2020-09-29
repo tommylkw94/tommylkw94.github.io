@@ -1,7 +1,7 @@
 function calculate() {
     let lev = parseInt(document.getElementById("input-lev").value);
     let loss = parseInt(document.getElementById("input-loss").value);
-    let ratio = parseInt(document.getElementById("input-ratio").value);
+    let ratio = parseFloat(document.getElementById("input-ratio").value);
     let entry = parseInt(document.getElementById("input-entry").value);
     let side = document.getElementById("long").checked ? 1 : -1;
 
